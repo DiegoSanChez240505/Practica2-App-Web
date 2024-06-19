@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    background-image: url(./binary-system-557601_960_720.jpg);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: linear-gradient(rgb(55, 191, 1), white);
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007504;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.pgrdor {
+    padding: 10px;
+    background: linear-gradient(rgb(44, 154, 0), white);
+    margin-top: 20px;
+    border-radius: 10px;
+}
